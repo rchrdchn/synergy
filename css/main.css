@@ -1,15 +1,3 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
 body {
     color: #222;
     font-size: 1em;
@@ -19,12 +7,36 @@ body {
     text-align: center;
 }
 
+/* Navigation Bar */
+
+.navbar-logo {
+    width: 175px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.nav__links {
+    padding: 30px 20px 10px 20px;
+    text-transform: uppercase;
+}
+
+.nav--links {
+    color: #0094D9;
+}
+
+.request--quote {
+    background-color: #0094D9;
+    border-radius: 3px;
+    color: #fff;
+}
+
+/*  */
+
 .container{
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
-
 
 #benefits{
     min-height: 700px;
@@ -88,6 +100,22 @@ body {
     padding: 10px;
     margin-top: 40px;
 }
+
+/* FOOTER SECTION */
+
+#footer {
+    background-color: #99CC33;
+    padding: 30px 0px;
+}
+
+.footer-left, .footer-center, .footer-right {
+    color: #fff;
+}
+
+.footer__icon {
+    padding: 0px 8px;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
