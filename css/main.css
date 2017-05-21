@@ -161,6 +161,16 @@ body {
     margin-top: 30px;
 }
 
+/* QUOTE FORM */
+
+.quote-form {
+    border: 3px solid #0094D9;
+    margin: 0px 450px;
+    margin-bottom: 50px;
+    padding: 0px 50px;
+    padding-bottom: 30px;
+}
+
 /* FOOTER SECTION */
 
 #footer {
