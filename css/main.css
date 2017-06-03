@@ -190,6 +190,17 @@ body {
     text-transform: uppercase;
 }
 
+/* GIVING BACK APPLICATION */
+
+.non-profit-form h4 {
+    color: #0094D9;
+}
+
+.non-profit-form {
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
 /* FOOTER SECTION */
 
 #footer {
