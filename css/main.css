@@ -130,6 +130,7 @@ body {
 
 .client--logos {
     width: 50%;
+    
 }
 
 /* TESTIMONIALS */
@@ -180,6 +181,13 @@ body {
 
 .form-group {
     margin-bottom: 50px;
+}
+
+/* GIVING BACK SECTION */
+
+.giving-back-title {
+    color: #99CC33;
+    text-transform: uppercase;
 }
 
 /* FOOTER SECTION */
