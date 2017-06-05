@@ -20,6 +20,7 @@ body {
 
 .navbar {
     background-color: #fff;
+    padding-bottom: 10px;
 }
 
 .navbar-logo {
@@ -49,7 +50,7 @@ body {
     bottom: 0;
     height: 3px;
     width: 0;
-    transition: width 0s ease, background 1s ease;
+    transition: width 0s ease, background 2s ease;
 }
 
 .nav--links:after {
@@ -61,13 +62,13 @@ body {
     height: 3px;
     width: 0;
     background: #0094D9;
-    transition: width 1s ease;
+    transition: width 2s ease;
 }
 
 .nav--links:hover:before {
     width: 100%;
     background: #0094D9;
-    transition: width .7s ease;
+    transition: width 1s ease;
     text-decoration: none;
 }
 
@@ -159,6 +160,7 @@ body {
     background: url(../img/stock/4.jpeg) top center;
     background-size: cover;
     opacity: 0.8;
+    animation: fadeIn 4s;
 }
 
 .hero--container {
@@ -177,12 +179,13 @@ body {
 .hero__text {
     margin: 0px 50px;
     line-height: 36px;
+    z-index: 2;
 }
 
 /* SERVICES */
 
 #services {
-    margin: 40px 0px 80px 0px;
+    margin: 40px 0px 100px 0px;
 }
 
 .services-title {
@@ -194,8 +197,8 @@ body {
 
 .services--img {
     width: 100%;
-    height: 50%;
     margin: 50px 0px 0px 30px;
+    opacity: 0.9;
 }
 
 .services-title__text {
@@ -204,23 +207,35 @@ body {
 }
 
 .services-cta {
-    margin: 20px 0px 40px 0px;
     font-family: 'Raleway', sans-serif;
 }
 
 .services__wellness {
-    margin: 50px 30px 20px 30px;
+    margin: 50px 30px 30px 30px;
     font-family: 'Raleway', sans-serif;
 }
 
 .services__wellness__text {
-    margin: 20px 50px 50px 30px;
+    margin: 20px 50px 30px 30px;
     line-height: 26px;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
 }
 
+.services__wellness__benefits {
+    margin: 10px 50px 10px 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.services__wellness__list > li {
+    /* list-style-type: none; */
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    padding: 3px 0px;
+    margin: 5px 0px;
+}
 
 /* LOGOS */
 
@@ -239,6 +254,7 @@ body {
 
 .client--logos {
     width: 50%;
+    margin: 0 auto;
     
 }
 
