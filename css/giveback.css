@@ -93,30 +93,75 @@ body {
     color: #fff;
 }
 
-/* QUOTE FORM */
+/* HOME HERO */
+#home {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/stock/4.jpeg) top center;
+    background-size: cover;
+    opacity: 0.8;
+    animation: fadeIn 4s;
+}
 
-.quote-title {
+.hero--container {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.hero--image {
+    width: 100%;
+}
+
+.hero__text {
+    margin: 0px 50px;
+    line-height: 36px;
+    z-index: 2;
+}
+
+/* GIVING BACK SECTION */
+
+#giving-back {
+    margin: 40px 0px;
+}
+
+.giving-back-title {
     color: #99CC33;
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
 }
 
-.quote-form h3 {
-    color: #0094D9;
+/* GIVING BACK QUESTIONS */
+
+.giving-back__left {
+    margin-top: 20px;
+}
+
+.giving-back-question {
+    margin: 10px 40px 20px 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.giving-back__text {
+    margin: 10px 20px;
     font-family: "Open Sans", sans-serif;
 }
 
-.quote-form {
-    border: 3px solid #0094D9;
-    margin: 0px 450px 80px 450px;
-    padding: 0px 50px 30px 50px;
+
+/* GIVING BACK APPLICATION */
+
+.non-profit-form h4 {
+    color: #0094D9;
 }
 
-.form-group {
-    margin-bottom: 50px;
-}
-
-.quote-form button {
-    font-family: 'Raleway', sans-serif;
+.non-profit-form {
+    margin: 10px 0px;
+    padding: 10px 0px;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* FOOTER SECTION */
