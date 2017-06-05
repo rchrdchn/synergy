@@ -12,6 +12,7 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
     </head>
 
     <body>
@@ -37,7 +38,7 @@
                     <li class="nav__links"><a href="#" class="nav--links">Services</a></li>
                     <li class="nav__links"><a href="#" class="nav--links">About Us</a></li>
                     <li class="nav__links"><a href="#" class="nav--links">FAQ</a></li>
-                    <li class="nav__links"><a href="#" class="nav--links request--quote">Request A Quote</a></li>
+                    <li class="nav__links"><a href="#" class="request--quote">Request A Quote</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -46,33 +47,28 @@
 
      <!--  HERO -->
       <section id="home">
-        <div class="container-fluid">
-            <img src="img/stock/4.jpeg" class="hero--image" alt="">
-        </div>
-        <div class="hero--text">
-            <h3>Synergy Massage &amp; Wellness is committed to fostering balance, wellness and productivity in workplaces throughout the Bay Area. Through our quality-focused, customizable mobile onsite chair massage programs, we provide employers an affordable way to increase the well-being and satisfaction of their most important asset: their employees.</h3>
+        <div class="container-fluid hero--container">
+            <h3 class="hero__text">Synergy Massage &amp; Wellness is committed to fostering balance, wellness and productivity in workplaces throughout the Bay Area. Through our quality-focused, customizable mobile onsite chair massage programs, we provide employers an affordable way to increase the well-being and satisfaction of their most important asset: their employees.</h3>
         </div>
       </section>
 
-    <!--RATES -->
+    <!-- SERVICES -->
     <section id="services">
         <div class="container-fluid">
             <div class="row">
-                <h1 class="services-title">Services</h1>
-                <p>We are proud to be the highest rated mobile onsite chair massage business on Yelp! in the Bay Area!</p>
-                <p>San Francisco, Peninsula, South Bay, East Bay, North Bay</p>
+                <h2 class="services-title">Services</h2>
+                <div class="divider"></div>
+                <p class="services-title__text">We are proud to be the highest rated mobile onsite chair massage business on Yelp! in the Bay Area!</p>
+                <p class="services-title__text">San Francisco, Peninsula, South Bay, East Bay, North Bay</p>
 
                 <div class="col-md-6">
-                    <h2 class="services__wellness">On-site Chair Massage</h2>
-                    <p class="col-md-8 col-md-offset-2">We can visit your office weekly, monthly or however you deem appropriate with our customized wellness program.</p>
+                    <img src="img/stock/2.jpg" class="services--img" alt="">
                 </div> 
                 <div class="col-md-6">
-                    <h2 class="services__wellness">Events</h2>
-                    <p class="col-md-8 col-md-offset-2">Have us come out to your wellness fair, employee appreciation events, conferences and other special events.</p>
-                </div>  
-            <div class="col-md-12 services-cta">
-                <a href="#"><button class="btn btn-primary btn-lg">Learn More</button></a>
-            </div>
+                    <h2 class="services__wellness text-left">We provide the best on-site chair massage</h2>
+                    <p class="services__wellness__text text-left">We can visit your office weekly, monthly or however you deem appropriate with our customized wellness program. We can also come out to your wellness fair, employee appreciation events, conferences and other special events.</p>
+                    <a href="#" class="services-cta"><button class="btn btn-primary btn-lg">Learn More</button></a>
+                </div>
             </div>
         </div>
     </section>        
@@ -81,7 +77,8 @@
     <section id="logos">
         <div class="container">
             <div class="row">
-                <h1 class="logos-title">Clients</h1>
+                <h2 class="logos-title">Clients</h2>
+               <div class="divider"></div>
                <section class="customer-logos slider">
                     <div class="slide"><a href="#"><img src="img/logos/asana.png" class="client--logos"></a></div>
                     <div class="slide"><a href="#"><img src="img/logos/airbnb.png" class="client--logos"></a></div>
@@ -108,31 +105,47 @@
     <section id="testimonials">
         <div class="container-fluid">
             <div class="row">
-            <h1 class="testimonials-title">Testimonials</h1>
+            <h2 class="testimonials-title">Testimonials</h2>
+            <div class="divider"></div>
                 <div class="col-md-4">
-                    <p class="testimonials--text">Since our team members are spread out in different locations around the Bay Area, it was important to us to find a company that met our needs: flexibility, knowledge of craft, professionalism, personality and affordability. That company was Synergy Massage</p>
-                    <div class="col-md-4">
+                    <p class="testimonials--text text-left">Since our team members are spread out in different locations around the Bay Area, it was important to us to find a company that met our needs: flexibility, knowledge of craft, professionalism, personality and affordability. That company was Synergy Massage. They listened to our needs and built a plan for our company.</p>
+                    <div class="col-md-5 testimonials--text__name">
                         <p>CC Todd-Edwards</p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-7 testimonials--text__yelp">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i> 
                         <i class="fa fa-yelp fa-2x" aria-hidden="true"></i>
                     </div>
                 </div> 
                 <div class="col-md-4 testimonials__text">
-                    <p class="testimonials--text">Highly recommended. Linda and her team have been giving chair massages at our office every other week for several months now. They are professional, friendly and give great massages! They work with you on areas that you want to focus on and will get out the kinks in your shoulders, neck and back. </p>
-                    <div class="col-md-4">
+                    <p class="testimonials--text text-left">Highly recommended. Linda and her team have been giving chair massages at our office every other week for several months now. They are professional, friendly and give great massages! They work with you on areas that you want to focus on and will get out the kinks in your shoulders, neck and back. </p>
+                    <div class="col-md-5 testimonials--text__name">
                         <p>Sherry S.</p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-7 testimonials--text__yelp">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i> 
                         <i class="fa fa-yelp fa-2x" aria-hidden="true"></i>
                     </div>
                 </div>  
                 <div class="col-md-4 testimonials__text">
-                    <p class="testimonials--text">I had the pleasure of having Linda and her team come to our Open Enrollment Benefits Fair. The employees raved about how great they felt after having massages!! Linda was great with communication and had some wonderful ideas for future collaboration. I hope to work with Linda again soon!</p>
-                    <div class="col-md-4">
+                    <p class="testimonials--text text-left">I had the pleasure of having Linda and her team come to our Open Enrollment Benefits Fair. The employees raved about how great they felt after having massages!! Linda was great with communication and had some wonderful ideas for future collaboration. I hope to work with Linda again soon!</p>
+                    <div class="col-md-5 testimonials--text__name">
                         <p>Sarah Murdock</p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-7 testimonials--text__yelp">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i> 
                         <i class="fa fa-yelp fa-2x" aria-hidden="true"></i>
                     </div>
                 </div>
