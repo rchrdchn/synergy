@@ -50,7 +50,7 @@ body {
     bottom: 0;
     height: 3px;
     width: 0;
-    transition: width 0s ease, background 2s ease;
+    transition: width 2s ease-in, background 2s ease-in;
 }
 
 .nav--links:after {
@@ -61,21 +61,21 @@ body {
     bottom: 0;
     height: 3px;
     width: 0;
-    background: #0094D9;
-    transition: width 2s ease;
+    background: #99CC33;
+    transition: width 2s ease-in;
 }
 
 .nav--links:hover:before {
     width: 100%;
     background: #0094D9;
-    transition: width 1s ease;
+    transition: width 2s ease-in;
     text-decoration: none;
 }
 
 .nav--links:hover:after {
     width: 100%;
     background: transparent;
-    transition: all 0s ease;
+    transition: all 2s ease-in;
     text-decoration: none;
 }
 
@@ -129,7 +129,7 @@ body {
     margin: 40px 0px;
 }
 
-.giving-back-title {
+.giving-back-title, .nominate-title {
     color: #99CC33;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
@@ -142,15 +142,15 @@ body {
 }
 
 .giving-back-question {
-    margin: 10px 40px 20px 20px;
+    margin: 20px 0px;
+    color: #0094D9;
     font-family: 'Raleway', sans-serif;
 }
 
 .giving-back__text {
-    margin: 10px 20px;
+    margin: 20px 20px 80px 20px;
     font-family: "Open Sans", sans-serif;
 }
-
 
 /* GIVING BACK APPLICATION */
 
@@ -162,6 +162,10 @@ body {
     margin: 10px 0px;
     padding: 10px 0px;
     font-family: "Open Sans", sans-serif;
+}
+
+.submit {
+    font-family: 'Raleway', sans-serif;
 }
 
 /* FOOTER SECTION */
