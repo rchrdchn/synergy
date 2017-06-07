@@ -93,64 +93,6 @@ body {
     color: #fff;
 }
 
-/*  */
-
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-#benefits{
-    min-height: 700px;
-    background-color: gray;
-}
-
-#benefits h1{
-    margin-top: 80px;
-}
-
-.employers, .employees{
-    padding-top: 60px;
-}
-
-#rates{
-    min-height: 400px;
-}
-
-
-#rates h2{
-    margin-top: 60px;
-}
-
-#rates p{
-    margin-top: 60px;
-}
-
-#included{
-    min-height: 400px;
-    background-color: gray;
-}
-
-#included h2{
-    margin-top: 60px;
-}
-
-#included .list  p{
-    float:right;
-    text-align: center;
-    width:50%;
-    padding: 0;
-    margin: 0;
-    padding-top: 20px;
-}
-
-#included .list ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 /* HOME HERO */
 
 #home {
@@ -240,7 +182,7 @@ body {
 /* LOGOS */
 
 #logos {
-    padding: 30px 0px;
+    padding: 20px 0px 30px 0px;
     background-color: #D8D8D8;
     opacity: 0.8;
 }
@@ -446,4 +388,129 @@ body {
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+/* MEDIA QUERY MOBILE */
+@media screen and (max-width: 480px) {
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 35px !important;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #0094D9 !important;
+    border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar {
+    border: 1px solid #0094D9;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.request--quote {
+    background-color: #0094D9;
+    border-radius: 3px;
+    margin-right: 0px;
+}
+
+#services {
+    margin: 30px 0px 50px 0px;
+}
+
+.services--img {
+    width: 100%;
+    margin: 30px 0px;
+    opacity: 0.9;
+}
+
+.services__wellness__list {
+    margin-bottom: 40px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+#testimonials {
+    margin: 30px 0px;
+    padding: 0px 0px;
+}
+
+.testimonials--text {
+    margin: 20px 0px;
+}
+
+.testimonials-cta {
+    margin: 20px 0px;
+}
+
+}
+
+/* MEDIA QUERY FOR TABLET */
+@media (min-width: 480px) and (max-width: 768px) {
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 35px !important;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #0094D9 !important;
+    border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar {
+    border: 1px solid #0094D9;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.request--quote {
+    background-color: #0094D9;
+    border-radius: 3px;
+    margin-right: 0px;
+}
+
+#services {
+    margin: 30px 0px 50px 0px;
+}
+
+.services--img {
+    width: 100%;
+    margin: 30px 0px;
+    opacity: 0.9;
+}
+
+.services__wellness__list {
+    margin-bottom: 40px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+#testimonials {
+    margin: 30px 0px;
+    padding: 0px 0px;
+}
+
+.testimonials--text {
+    margin: 20px 0px;
+}
+
+.testimonials-cta {
+    margin: 20px 0px;
+}
+
 }
