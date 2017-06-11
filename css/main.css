@@ -101,7 +101,6 @@ body {
     height: 100vh;
     background: url(../img/stock/corporate-massage.jpeg) top center;
     background-size: cover;
-    opacity: 0.8;
     animation: fadeIn 4s;
 }
 
@@ -112,6 +111,7 @@ body {
     text-align: center;
     vertical-align: middle;
     color: #fff;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .hero--image {
@@ -119,9 +119,17 @@ body {
 }
 
 .hero__text {
-    margin: 0px 50px;
-    line-height: 36px;
+    margin: 200px 100px 100px 100px;
+    line-height: 60px;
     z-index: 2;
+    color: #E0E0E0;
+    font-family: 'Handlee', cursive;
+}
+
+.fa-chevron-circle-down {
+    color: #99CC33;
+    margin-top: 50px;
+    transition: 0.5s;
 }
 
 /* SERVICES */
