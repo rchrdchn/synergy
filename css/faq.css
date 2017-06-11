@@ -114,12 +114,12 @@ body {
 }
 
 .faq-c {
-    border-bottom: 1px dotted #ccc;
     padding: 1em 0;
     background-color: #D8D8D8;
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 10px;
+    box-shadow: 2px 2px 1px grey;
 }
 
 .faq-t {

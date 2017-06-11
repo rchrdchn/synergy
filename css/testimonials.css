@@ -13,7 +13,7 @@ body {
     height: 3px;
     background: #0094D9;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 /* Navigation Bar */
@@ -93,261 +93,59 @@ body {
     color: #fff;
 }
 
-/*  */
+/*testimonials*/
 
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.review {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-style: solid;
+    border-color: #e1e1e1;
+    border-radius: 4px;
+    background-color: #e1e1e1;
 }
-
-#benefits{
-    min-height: 700px;
-    background-color: gray;
-}
-
-#benefits h1{
-    margin-top: 80px;
-}
-
-.employers, .employees{
-    padding-top: 60px;
-}
-
-#rates{
-    min-height: 400px;
-}
-
-
-#rates h2{
-    margin-top: 60px;
-}
-
-#rates p{
-    margin-top: 60px;
-}
-
-#included{
-    min-height: 400px;
-    background-color: gray;
-}
-
-#included h2{
-    margin-top: 60px;
-}
-
-#included .list  p{
-    float:right;
-    text-align: center;
-    width:50%;
-    padding: 0;
-    margin: 0;
-    padding-top: 20px;
-}
-
-#included .list ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* HOME HERO */
-
-#home {
-    display: table;
-    width: 100%;
-    height: 100vh;
-    background: url(../img/stock/4.jpeg) top center;
-    background-size: cover;
-    opacity: 0.8;
-    animation: fadeIn 4s;
-}
-
-.hero--container {
-    display: table-cell;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    vertical-align: middle;
-    color: #fff;
-}
-
-.hero--image {
-    width: 100%;
-}
-
-.hero__text {
-    margin: 0px 50px;
-    line-height: 36px;
-    z-index: 2;
-}
-
-/* SERVICES */
-
-#services {
-    margin: 40px 0px 100px 0px;
-}
-
-.services-title {
-    color: #99CC33;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.services--img {
-    width: 100%;
-    margin: 50px 0px 0px 30px;
-    opacity: 0.9;
-}
-
-.services-title__text {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-}
-
-.services-cta {
-    font-family: 'Raleway', sans-serif;
-}
-
-.services__wellness {
-    margin: 50px 30px 30px 30px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.services__wellness__text {
-    margin: 20px 50px 30px 30px;
-    line-height: 26px;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-}
-
-.services__wellness__benefits {
-    margin: 10px 50px 10px 30px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-}
-
-.services__wellness__list > li {
-    /* list-style-type: none; */
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    padding: 3px 0px;
-    margin: 5px 0px;
-}
-
-/* LOGOS */
-
-#logos {
-    padding: 30px 0px;
-    background-color: #D8D8D8;
-    opacity: 0.8;
-}
-
-.logos-title {
-    color: #99CC33;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.client--logos {
-    width: 50%;
-    margin: 0 auto;
-    
-}
-
-/* TESTIMONIALS */
 
 #testimonials {
-    padding: 60px 10px;
-}
-
-.testimonials-title {
-    margin-bottom: 20px;
-    color: #99CC33;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-}
-
-.testimonials--text {
-    margin: 20px 0px 40px 0px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-}
-
-.testimonials-cta {
-    margin: 50px 0px 40px 0px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.testimonials--text__name {
-    font-family: 'Raleway', sans-serif;
-    text-align: left;
-    margin: 10px 0px 0px -15px;
-    font-weight: bold;
-}
-
-.testimonials--text__yelp {
-    text-align: right;
-    color: #D32323;
-}
-
-.fa-star {
-    color: #ffd800 !important;
-}
-
-.fa-yelp {
-    margin-left: 10px;
-}
-
-/* CONFIRMATION SECTION */
-
-.confirmation-message {
-    padding: 170px 0px;
-}
-
-.confirmation-message > button {
-    margin-top: 30px;
-}
-
-/* QUOTE FORM */
-
-.quote-title {
-    color: #99CC33;
-}
-
-.quote-form h3 {
-    color: #0094D9;
-}
-
-.quote-form {
-    border: 3px solid #0094D9;
-    margin: 0px 450px 80px 450px;
-    padding: 0px 50px 30px 50px;
-}
-
-.form-group {
     margin-bottom: 50px;
 }
 
-/* GIVING BACK SECTION */
-
-.giving-back-title {
+.testimonials-title {
+    margin-top: 150px;
     color: #99CC33;
     text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
-/* GIVING BACK APPLICATION */
-
-.non-profit-form h4 {
-    color: #0094D9;
+.testimonials--review {
+    text-align: left;
+    margin: 30px 150px;
+    padding: 10px 30px;
+    border: 1px #D8D8D8 solid;
+    border-radius: 5px;
+    background-color: #D8D8D8;
+    box-shadow: 1px 1px 1px grey;
 }
 
-.non-profit-form {
-    margin: 10px 0px;
+.testimonials__text {
     padding: 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.testimonials__left {
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.testimonials__right {
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* FOOTER SECTION */
@@ -378,299 +176,73 @@ body {
     padding: 0px 8px;
 }
 
-/* LOGOS DISPLAY in HOME PAGE */
-
-/* Slider */
-.slick-slide {
-    margin: 0px 20px;
-}
-
-.slick-slide img {
-    /* width: 100%; */
-}
-
-.slick-slider
-{
+/* MEDIA QUERY MOBILE */
+@media screen and (max-width: 480px) {
+.navbar-toggle {
     position: relative;
-    display: block;
-    box-sizing: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-            user-select: none;
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.slick-list
-{
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
-
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
-
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
-    content: '';
-}
-.slick-track:after
-{
-    clear: both;
-}
-.slick-loading .slick-track
-{
-    visibility: hidden;
-}
-
-.slick-slide
-{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
     float: right;
+    padding: 9px 10px;
+    margin-top: 35px !important;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #0094D9 !important;
+    border-radius: 4px;
 }
-.slick-slide img
-{
+
+.navbar-toggle .icon-bar {
+    border: 1px solid #0094D9;
     display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
 }
-.slick-slide.slick-loading img
-{
-    display: none;
+
+.request--quote {
+    background-color: #0094D9;
+    border-radius: 3px;
+    margin-right: 0px;
 }
-.slick-slide.dragging img
-{
-    pointer-events: none;
+
+.testimonials--review {
+    margin: 20px 30px;
 }
-.slick-initialized .slick-slide
-{
+
+}
+
+/* MEDIA QUERY FOR TABLET */
+@media (min-width: 480px) and (max-width: 768px) {
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 35px !important;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #0094D9 !important;
+    border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar {
+    border: 1px solid #0094D9;
     display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
-    height: auto;
-    border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-    display: none;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+.request--quote {
+    background-color: #0094D9;
+    border-radius: 3px;
+    margin-right: 0px;
 }
 
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+.testimonials--review {
+    margin: 20px 50px;
 }
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
-}
-
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden {
-    display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-
-@media(max-width: 768px){
-    #benefits, #rates, #included .list p, #paymentoptions .box{
-        float:none;
-        text-align:center;
-        width:100%
-    }
 
 }
