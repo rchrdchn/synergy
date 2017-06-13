@@ -90,6 +90,8 @@ body {
 
 .request--quote:hover {
     background-color: #99CC33 !important;
+    cursor: pointer;
+    transition: all 0.8s linear;
     color: #fff;
 }
 
@@ -128,7 +130,7 @@ body {
 
 .fa-chevron-circle-down {
     color: #99CC33;
-    margin-top: 20px;
+    margin-top: 30px;
     transition: 0.5s;
 }
 

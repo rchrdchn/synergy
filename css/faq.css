@@ -90,6 +90,8 @@ body {
 
 .request--quote:hover {
     background-color: #99CC33 !important;
+    cursor: pointer;
+    transition: all 0.8s linear;
     color: #fff;
 }
 

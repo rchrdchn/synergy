@@ -90,17 +90,19 @@ body {
 
 .request--quote:hover {
     background-color: #99CC33 !important;
+    cursor: pointer;
+    transition: all 0.8s linear;
     color: #fff;
 }
 
 /* HOME HERO */
+
 #home {
     display: table;
     width: 100%;
     height: 100vh;
     background: url(../img/stock/synergy-massage-1.jpeg) top center;
     background-size: cover;
-    opacity: 0.8;
     animation: fadeIn 4s;
 }
 
@@ -119,7 +121,7 @@ body {
 }
 
 .hero__text {
-    margin: 200px 100px 100px 100px;
+    margin: 200px 100px 50px 100px;
     line-height: 70px;
     z-index: 2;
     color: #E0E0E0;
@@ -128,7 +130,7 @@ body {
 
 .fa-chevron-circle-down {
     color: #99CC33;
-    margin-top: 50px;
+    margin-top: 30px;
     transition: 0.5s;
 }
 
