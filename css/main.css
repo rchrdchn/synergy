@@ -191,8 +191,7 @@ body {
 
 #logos {
     padding: 20px 0px 30px 0px;
-    background-color: #D8D8D8;
-    opacity: 0.8;
+    background-color: #E0E0E0;
 }
 
 .logos-title {
@@ -441,7 +440,6 @@ body {
 
 .fa-chevron-circle-down {
     color: #99CC33;
-    margin-top: 150px;
     transition: 0.5s;
 }
 
@@ -519,7 +517,7 @@ body {
 
 .fa-chevron-circle-down {
     color: #99CC33;
-    margin-top: 150px;
+    margin-top: 100px;
     transition: 0.5s;
 }
 
