@@ -119,7 +119,7 @@ body {
 }
 
 .hero__text {
-    margin: 200px 100px 100px 100px;
+    margin: 200px 100px 50px 100px;
     line-height: 70px;
     z-index: 2;
     color: #E0E0E0;
@@ -128,65 +128,58 @@ body {
 
 .fa-chevron-circle-down {
     color: #99CC33;
-    margin-top: 50px;
+    margin-top: 20px;
     transition: 0.5s;
 }
 
 /* SERVICES */
 
 /*RATES SECTION*/
-#rates{
-    height: 520px;
-    width: 80%;
-    margin: auto;
+
+#rates {
+    margin: 40px 0px 50px 0px;
 }
 
-
-#rates h2{
-    margin-top: 60px;
-    font-size: 40px;
-    color: rgb(164, 202, 78)
+.rates-title {
+    color: #99CC33;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
-#rates #cost{
-    margin-top: 40px;
+#rates h3 {
+    margin: 30px 140px;
+    line-height: 48px;
+    font-family: "Open Sans", sans-serif;
 }
 
-#rates h4{
-    margin-top: 60px;
+.rates-cta {
+    font-family: 'Raleway', sans-serif;
 }
 
-#rates #policy{
-    margin-top: 20px;
-    padding: 10px;
-    margin-top: 20px;
+/* WHATS INCLUDED SECTION */
+
+#included {
+    padding: 30px 0px;
+    background-color: #E0E0E0;
 }
 
-/*WHATS INCLUDED SECTION*/
-#included{
-    min-height: 450px;
-    background-color: rgb(237, 237, 237);
+.included-title, .benefits-title {
+    color: #99CC33;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
-#included h2{
-    margin-top: 60px;
-    font-size: 40px;
-    color: rgb(164, 202, 78)
-}
-
-#included .list  p{
-    float:right;
+.included--benefits p {
     text-align: center;
-    width:50%;
-    padding-top: 20px;
-    color: rgb(60, 147, 212);
-    font-size: 24px;
+    font-size: 18px;
 }
 
 /* PAYMENT OPTIONS SECTION */
 
 #paymentoptions {
-    
+    margin: 50px 0px;
 }
 
 .payment-title {
@@ -196,15 +189,14 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.payment--options h3 {
-    font-size: 30px;
+.payment--options h2 {
     color: #0094D9;
+    font-family: 'Raleway', sans-serif;
 }
 
-#paymentoptions .box p{
-    padding-top: 20px;
+.payment--options p {
     font-size: 18px;
-    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* FOOTER SECTION */
@@ -275,8 +267,17 @@ body {
 
 .fa-chevron-circle-down {
     color: #99CC33;
-    margin-top: 150px;
     transition: 0.5s;
+}
+
+#rates h3 {
+    margin: 30px 20px 40px 20px;
+    line-height: 36px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.payment--options {
+    margin: 40px 0px;
 }
 
 }
@@ -322,8 +323,18 @@ body {
 
 .fa-chevron-circle-down {
     color: #99CC33;
-    margin-top: 150px;
+    margin-top: 100px;
     transition: 0.5s;
+}
+
+#rates h3 {
+    margin: 30px;
+    line-height: 36px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.payment--options {
+    margin: 40px 0px;
 }
 
 }
