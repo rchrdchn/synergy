@@ -1,0 +1,271 @@
+body {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 100%;
+}
+
+.divider {
+    width: 100px;
+    height: 3px;
+    background: #0094D9;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+.navbar-logo {
+    width: 175px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.nav__links {
+    padding: 30px 20px 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav--links {
+    color: #0094D9;
+    background-color: #fff !important;
+}
+
+.nav--links:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    transition: width 0s ease, background 2s ease;
+}
+
+.nav--links:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #0094D9;
+    transition: width 2s ease;
+}
+
+.nav--links:hover:before {
+    width: 100%;
+    background: #0094D9;
+    transition: width 1s ease;
+    text-decoration: none;
+}
+
+.nav--links:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+    text-decoration: none;
+}
+
+.request--quote {
+    background-color: #0094D9;
+    border-radius: 3px;
+    color: #fff;
+    margin-right: 40px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.request--quote:hover {
+    background-color: #99CC33 !important;
+    cursor: pointer;
+    transition: all 0.8s linear;
+    color: #fff;
+}
+
+/* HOME HERO */
+
+#home {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/stock/corporate-massage.jpeg) top center;
+    background-size: cover;
+    animation: fadeIn 4s;
+}
+
+.hero--container {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero--image {
+    width: 100%;
+}
+
+.hero__text {
+    margin: 200px 100px 50px 100px;
+    line-height: 70px;
+    z-index: 2;
+    color: #E0E0E0;
+    font-family: 'Handlee', cursive;
+}
+
+.fa-chevron-circle-down {
+    color: #99CC33;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+/* VALUES SECTION */
+
+
+
+/* TEAM SECTION */
+
+
+
+/* JOIN TEAM SECTION */
+
+
+
+/* GIVE BACK PROGRAM SECTION */
+
+
+
+/* FOOTER SECTION */
+
+#footer {
+    background-color: #99CC33;
+    padding: 30px 0px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer-left, .footer-center, .footer-right {
+    color: #fff;
+}
+
+.footer--link {
+    color: #fff;
+}
+
+.footer--link:hover {
+    color: #f0f0f0;
+}
+
+.footer__icon {
+    padding: 0px 8px;
+}
+
+/* MEDIA QUERY MOBILE */
+@media screen and (max-width: 480px) {
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 35px !important;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #0094D9 !important;
+    border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar {
+    border: 1px solid #0094D9;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.request--quote {
+    background-color: #0094D9;
+    border-radius: 3px;
+    margin-right: 0px;
+}
+
+.hero__text {
+    margin: 150px 20px 20px 20px;
+    font-size: 22px;
+    line-height: 40px;
+    z-index: 2;
+    color: #E0E0E0;
+    font-family: 'Handlee', cursive;
+}
+
+.fa-chevron-circle-down {
+    color: #99CC33;
+    transition: 0.5s;
+}
+
+}
+
+/* MEDIA QUERY FOR TABLET */
+@media (min-width: 480px) and (max-width: 768px) {
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 35px !important;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #0094D9 !important;
+    border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar {
+    border: 1px solid #0094D9;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.request--quote {
+    background-color: #0094D9;
+    border-radius: 3px;
+    margin-right: 0px;
+}
+
+.hero__text {
+    margin: 150px 20px 20px 20px;
+    font-size: 24px;
+    line-height: 44px;
+    z-index: 2;
+    color: #E0E0E0;
+    font-family: 'Handlee', cursive;
+}
+
+.fa-chevron-circle-down {
+    color: #99CC33;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+
+}
