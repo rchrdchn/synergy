@@ -50,7 +50,7 @@ body {
     bottom: 0;
     height: 3px;
     width: 0;
-    transition: width 2s ease-in, background 2s ease-in;
+    transition: width 0s ease, background 2s ease;
 }
 
 .nav--links:after {
@@ -61,21 +61,21 @@ body {
     bottom: 0;
     height: 3px;
     width: 0;
-    background: #99CC33;
-    transition: width 2s ease-in;
+    background: #0094D9;
+    transition: width 2s ease;
 }
 
 .nav--links:hover:before {
     width: 100%;
     background: #0094D9;
-    transition: width 2s ease-in;
+    transition: width 1s ease;
     text-decoration: none;
 }
 
 .nav--links:hover:after {
     width: 100%;
     background: transparent;
-    transition: all 2s ease-in;
+    transition: all 0s ease;
     text-decoration: none;
 }
 
