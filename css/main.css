@@ -249,12 +249,15 @@ body {
     color: #D32323;
 }
 
-.fa-star {
-    color: #ffd800 !important;
+.testimonials--text__linkedin {
+    text-align: right;
+    color: #0077B5;
 }
 
-.fa-yelp {
-    margin-left: 10px;
+.testimonials--recommend {
+    margin-right: 10px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* FOOTER SECTION */

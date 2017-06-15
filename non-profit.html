@@ -92,35 +92,27 @@
     <section id="nominate">
         <div class="container-fluid animated fadeIn">
            <div class="row  col-md-6 col-md-offset-3">
-                <h2 class="nominate-title">Nominate Here</h2>
+                <h2 class="nominate-title">Apply Here</h2>
                 <div class="divider"></div>
 
-                <div class="col-md-6 non-profit-form text-left">
+                <div class="col-md-12 non-profit-form">
                     <form method="POST" action="http://formspree.io/chanrichardsf@gmail.com">
-                        <h4>Applicant/Nominator Name</h4>
-                        <input type="text" name="applicant-name" class="form-control" placeholder="John Smith" required>
-                        <h4>Applicant/Nominator Phone Number</h4>
-                        <input type="number" name="applicant-number" class="form-control" placeholder="415-888-0000" required>
-                        <h4>Applicant/Nominator Email</h4>
-                        <input type="email" name="applicant-email" class="form-control" placeholder="john.smith@mail.com" required>
-                        <h4>How did you hear about us?</h4>
-                        <input type="text" name="how-did-you-hear-about-program" class="form-control" placeholder="" required>
+                        <h4>Full Name*</h4>
+                        <input type="text" name="applicant-name" class="form-control" required>
+                        <h4>Phone Number*</h4>
+                        <input type="number" name="applicant-number" class="form-control" required>
+                        <h4>Email Address*</h4>
+                        <input type="email" name="applicant-email" class="form-control" required>
+                        <h4>How did you hear about us?*</h4>
+                        <input type="text" name="how-did-you-hear-about-program" class="form-control" required>
                         <h4>Non-Profit Organization</h4>
-                        <input type="text" name="non-profit-org" class="form-control" placeholder="Non-Profit Organization Name" required>
+                        <input type="text" name="non-profit-org" class="form-control" required>
                         <h4>Mission Statement</h4>
-                        <input type="text" name="non-profit-mission" class="form-control" placeholder="Non-Profit Mission Statement" required>
-                </div>
-                <div class="col-md-6 non-profit-form text-left">
-                        <h4>Organization Contact Name</h4>
-                        <input type="text" name="organization-contact-name" class="form-control" placeholder="Sally Jones" required>
-                        <h4>Organization Contact Number</h4>
-                        <input type="number" name="organization-contact-number" class="form-control" placeholder="650-555-8800" required>
-                        <h4>Organization Contact Email</h4>
-                        <input type="email" name="organization-contact-email" class="form-control" placeholder="sally.jones@mail.com" required>
-                        <h4>Description of Recent Achievement</h4>
-                        <input type="text" name="recent-achievements" class="form-control" placeholder="Description of Recent Achievement" required>
+                        <textarea type="text" name="non-profit-mission" class="form-control" row="3" required></textarea>
+                        <h4>Recent Achievements</h4>
+                        <textarea type="text" name="recent-achievements" class="form-control" row="3" required></textarea>
                         <h4>How many on-site staff do you have?</h4>
-                        <input type="number" name="how-many-on-site-staff" class="form-control" placeholder=""></input>
+                        <input type="number" name="how-many-on-site-staff" class="form-control"></input>
                         <br>
                         <button class="btn btn-primary btn-lg submit" type="submit">Submit Application</button>
                     </form>

@@ -102,7 +102,7 @@ body {
     display: table;
     width: 100%;
     height: 100vh;
-    background: url(../img/stock/synergy-massage-1.jpeg) top center;
+    background: url(../img/stock/community.png) top center;
     background-size: cover;
     animation: fadeIn 4s;
 }
@@ -182,6 +182,7 @@ body {
 
 .submit {
     font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
 }
 
 /* FOOTER SECTION */

@@ -122,6 +122,13 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.quote__session, label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+
 /* FOOTER SECTION */
 
 #footer {
@@ -151,7 +158,7 @@ body {
 }
 
 /* MEDIA QUERY */
-@media screen and (max-width: 1200px)  {
+@media screen (min-width: 768px) and (max-width: 1200px)  {
 .quote-form {
     border: 3px solid #0094D9;
     margin: 0px 150px 50px 150px !important;

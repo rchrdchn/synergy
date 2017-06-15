@@ -61,20 +61,22 @@
                 <h2 class="quote-title">Request your quote today:</h2>
                 <div class="divider"></div>
                 <form method="POST" action="http://formspree.io/chanrichardsf@gmail.com">
-                    <h3>Company Name</h3>
-                    <input type="text" name="company-name" class="form-control" placeholder="Company Name" required>
-                    <h3>Contact Name</h3>
-                    <input type="text" name="contact-name" class="form-control" placeholder="Contact Name" required>
-                    <h3>Contact Email</h3>
-                    <input type="email" name="email" class="form-control" placeholder="Contact Email" required>
-                    <h3>Contact Phone Number</h3>
-                    <input type="number" name="contact-name" class="form-control" placeholder="Contact Phone Number" required>
+                    <h3>Company Name*</h3>
+                    <input type="text" name="company-name" class="form-control" required>
+                    <h3>Contact Name*</h3>
+                    <input type="text" name="contact-name" class="form-control" required>
+                    <h3>Contact Email*</h3>
+                    <input type="email" name="email" class="form-control" required>
+                    <h3>Contact Phone Number*</h3>
+                    <input type="number" name="contact-name" class="form-control" required>
                     <h3>Number of Employees</h3>
-                    <input type="number" name="employees-number" class="form-control" placeholder="Number of Employees" required>
+                    <input type="number" name="employees-number" class="form-control">
                     <h3>Session Length</h3>
-                    <input type="number" name="session-length" class="form-control" placeholder="Session Length" required>
+                    <label><input type="checkbox" value="15-mins" class="quote__session"> 15 minutes</label>
+                    <label><input type="checkbox" value="20-mins" class="quote__session"> 20 minutes</label>
+                    <label><input type="checkbox" value="30-mins" class="quote__session"> 30 minutes</label>
                     <h3>Comments</h3>
-                    <textarea name="comments" class="form-control" rows="3" placeholder="Comments"></textarea>
+                    <textarea name="comments" class="form-control" rows="3"></textarea>
                     <br>
                     <button class="btn btn-primary btn-lg" type="submit">Request A Quote</button>
                 </form>
