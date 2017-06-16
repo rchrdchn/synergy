@@ -288,6 +288,16 @@ body {
     padding: 0px 8px;
 }
 
+.footer__built {
+    color: #FDFEFA !important;
+    text-decoration: none;
+}
+
+.footer__built:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* LOGOS DISPLAY in HOME PAGE */
 
 /* Slider */
