@@ -43,3 +43,6 @@ $('a[href*="#"]')
       }
     }
   });
+
+  // Initiate the wowjs
+  new WOW().init();
