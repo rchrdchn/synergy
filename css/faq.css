@@ -26,18 +26,17 @@ body {
     overflow: visible;
     background: #fff url("../img/icons/preloader.svg") no-repeat center center;
 }
-
 .navbar {
     background-color: #fff;
     padding-bottom: 10px;
 }
 .navbar-logo {
-    width: 175px;
+    width: 275px;
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .nav__links {
-    padding: 30px 20px 10px 20px;
+    padding: 20px 10px 10px 10px;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;

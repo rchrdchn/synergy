@@ -21,12 +21,12 @@ body {
     padding-bottom: 10px;
 }
 .navbar-logo {
-    width: 175px;
+    width: 275px;
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .nav__links {
-    padding: 30px 20px 10px 20px;
+    padding: 20px 10px 10px 10px;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -147,7 +147,7 @@ body {
 }
 .services-title__text {
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    font-size: 16px;
 }
 .services-cta {
     font-family: 'Raleway', sans-serif;
@@ -387,6 +387,14 @@ body {
         background-color: #0094D9;
         border-radius: 3px;
         margin-right: 0px;
+    }
+    #home {
+        display: table;
+        width: 100%;
+        height: 100vh;
+        background: url(../img/stock/corporate-massage-mobile.jpeg) top center;
+        background-size: cover;
+        animation: fadeIn 2s;
     }
     .hero__text {
         margin: 150px 20px 20px 20px;
