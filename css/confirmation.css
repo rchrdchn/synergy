@@ -160,6 +160,13 @@ body {
         height: 2px;
         border-radius: 1px;
     }
+    .nav__links {
+        padding: 5px 10px 5px 10px;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
     .request--quote {
         background-color: #0094D9;
         border-radius: 3px;
@@ -198,6 +205,13 @@ body {
         width: 22px;
         height: 2px;
         border-radius: 1px;
+    }
+    .nav__links {
+        padding: 5px 10px 5px 10px;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
     }
     .request--quote {
         background-color: #0094D9;
