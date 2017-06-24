@@ -148,7 +148,11 @@ body {
 }
 .services-title__text {
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    /* font-size: 16px; */
+    margin: 0px 60px;
+}
+.yelp-reviews {
+    margin-bottom: 30px;
 }
 .services-cta {
     font-family: 'Raleway', sans-serif;
@@ -424,6 +428,12 @@ body {
         margin: 30px 0px;
         opacity: 0.9;
     }
+    .services-title__text {
+        font-size: 16px;
+    }
+    .services-title {
+        font-size: 16px;
+    }
     .services__wellness__list {
         margin-bottom: 40px;
     }
@@ -503,6 +513,17 @@ body {
     }
     .services__wellness__list {
         margin-bottom: 40px;
+    }
+    .services-title__text {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        margin: 0px 60px;
+    }
+    .services-title {
+        color: #99CC33;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-family: 'Raleway', sans-serif;
     }
     .slick-slide img {
         width: 100%;
