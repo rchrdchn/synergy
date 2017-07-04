@@ -45,9 +45,5 @@ $('a[href*="#"]')
         }
     });
 
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').focus()
-})
-
 // Initiate the wowjs
 new WOW().init();
