@@ -190,6 +190,9 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
 }
+.modal-content {
+    z-index: 999;
+}
 /* JOIN TEAM SECTION */
 
 #join {
@@ -313,6 +316,9 @@ body {
     .team--subtitle {
         padding: 0px 20px;
     }
+    .team--members {
+        padding-bottom: 50px;
+    }
     .values--text {
         font-family: "Open Sans", sans-serif;
         font-size: 16px;
@@ -382,7 +388,7 @@ body {
         padding: 0px 150px;
     }
     .team--members {
-        padding-bottom: 10px;
+        padding-bottom: 50px;
     }
     .join--text {
         padding: 0px 50px;
