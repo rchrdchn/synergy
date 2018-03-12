@@ -7,6 +7,10 @@ body {
     text-align: center;
     height: 100%;
 }
+/* removes blue border on section after clicking on down chevron on hero image */
+section {
+    outline:  none !important;
+}
 .divider {
     width: 100px;
     height: 3px;
