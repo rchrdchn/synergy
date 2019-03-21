@@ -68,6 +68,12 @@ section {
     background: #fff url("../img/icons/preloader.svg") no-repeat center center;
 }
 
+/* MESSAGE */
+#message {
+    margin-bottom: 30px;
+}
+
+/* QUOTE */
 .quote-title {
     color: #99CC33;
     font-family: 'Raleway', sans-serif;
@@ -78,6 +84,7 @@ section {
 }
 .quote-form {
     border: 3px solid #0094D9;
+    border-radius: 10px;
     margin: 0px 450px 80px 450px;
     padding: 0px 50px 30px 50px;
 }

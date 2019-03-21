@@ -117,13 +117,24 @@ section {
     line-height: 48px;
     font-family: "Open Sans", sans-serif;
 }
+#rates .col-md-12 {
+    margin-bottom: 25px;
+}
+#rates .discount {
+    margin-bottom: 25px;
+}
 .rates-cta {
     font-family: 'Raleway', sans-serif;
 }
+/* SERVICES */
+#services {
+    padding: 30px 0px;
+    background-color: #E0E0E0;
+}
+
 /* WHATS INCLUDED SECTION */
 #included {
     padding: 30px 0px;
-    background-color: #E0E0E0;
 }
 .included-title,
 .benefits-title {
@@ -136,17 +147,9 @@ section {
     text-align: center;
     font-size: 18px;
 }
-/* AREAS WE SERVE */
-#areas {
-    padding: 30px 0px;
-}
-#areas h4 {
-    margin-bottom: 40px;
-}
 /* PAYMENT OPTIONS SECTION */
 #paymentoptions {
-    margin-top: 50px;
-    padding: 30px 0px;
+    padding: 50px 0px;
     background-color: #E0E0E0;
 }
 .payment-title {
